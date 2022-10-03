@@ -1023,6 +1023,7 @@
 70.40.192.0,70.40.223.255,Bluehost.com,http://www.bluehost.com/
 70.84.0.0,70.87.255.255,"ThePlanet.com Internet Services, Inc.",http://theplanet.com
 71.6.128.0,71.6.255.255,cari.net,http://cari.net/
+71.18.0.0,71.18.255.255,TIKTOK PTE. LTD,https://www.bytedance.com/
 72.1.96.0,72.1.127.255,latisys,http://www.latisys.com/
 72.1.240.0,72.1.255.255,ndchost.com,http://www.ndchost.com/
 72.3.128.0,72.3.255.255,Rackspace,http://www.rackspace.com/
@@ -1678,6 +1679,8 @@
 103.28.148.0,103.28.149.255,Argon Data Communication,http://easyway.co.id
 103.31.4.0,103.31.7.255,Cloudflare Inc,https://www.cloudflare.com/
 103.45.228.0,103.45.231.255,ESC,https://esc.vn/
+103.136.220.0,103.136.221.255,TIKTOK PTE. LTD,https://www.bytedance.com/
+103.136.222.0,103.136.223.255,TIKTOK PTE. LTD,https://www.bytedance.com/
 103.197.148.0,103.197.148.255,Trabia,https://www.trabia.com/
 103.244.50.0,103.244.50.255,Fastly,https://www.fastly.com/
 103.245.222.0,103.245.224.255,Fastly,https://www.fastly.com/
@@ -1830,6 +1833,7 @@
 117.120.0.0,117.120.7.255,ReadySpace,http://www.readyspace.com.sg/en/
 117.121.240.0,117.121.247.255,GPLHost,https://www.gplhost.com/
 118.24.0.0,118.25.255.255,Tencent Cloud,https://intl.cloud.tencent.com/
+118.26.132.0,118.26.132.255,TIKTOK PTE. LTD,https://www.bytedance.com/
 118.67.244.0,118.67.244.255,net4,https://www.net4.com/
 118.67.248.0,118.67.248.255,net4,https://www.net4.com/
 118.127.0.0,118.127.63.255,Dedicated Servers,http://dedicatedservers.net.au/
