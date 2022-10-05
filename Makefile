@@ -10,8 +10,8 @@ aws:
 azure:
 	go run ./cmd/ipcat/main.go -azure
 
-appengine:
-	go run ./cmd/ipcat/main.go -appengine
+google:
+	go run ./cmd/ipcat/main.go -google
 
 cloudflare:
 	go run ./cmd/ipcat/main.go -cloudflare
