@@ -7,12 +7,6 @@ import (
     "net/http"
 )
 
-//  Ref: Google Cloud
-//  https://cloud.google.com/compute/docs/faq#find_ip_range
-var (
-    googleDownload = "https://www.gstatic.com/ipranges/cloud.json"
-)
-
 type GooglePrefix struct {
     IPPrefix string `json:"ipv4Prefix"`
     Service  string `json:"service"`
@@ -27,6 +21,10 @@ type GoogleCloud struct {
 
 // Downloads the latest Google Cloud public IP ranges list
 func DownloadGoogle() ([]byte, error) {
+    //  Ref: Google Cloud
+    //  https://cloud.google.com/compute/docs/faq#find_ip_range
+    const googleDownload = "https://www.gstatic.com/ipranges/cloud.json"
+
     resp, err := http.Get(googleDownload)
     if err != nil {
         return nil, err

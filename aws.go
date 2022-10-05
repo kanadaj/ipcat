@@ -7,28 +7,24 @@ import (
     "net/http"
 )
 
-//  Ref: AWS IP address ranges
-//  https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html
-var (
-    awsDownload = "https://ip-ranges.amazonaws.com/ip-ranges.json"
-)
-
-// AWSPrefix is AWS prefix in their IP ranges file
 type AWSPrefix struct {
     IPPrefix string `json:"ip_prefix"`
     Region   string `json:"region"`
     Service  string `json:"service"`
 }
 
-// AWS is main record for AWS IP info
 type AWS struct {
     SyncToken  string      `json:"syncToken"`
     CreateDate string      `json:"createDate"`
     Prefixes   []AWSPrefix `json:"prefixes"`
 }
 
-// DownloadAWS downloads the latest AWS IP ranges list
+// Downloads the latest AWS IP ranges list
 func DownloadAWS() ([]byte, error) {
+    //  Ref: AWS IP address ranges
+    //  https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html
+    const awsDownload = "https://ip-ranges.amazonaws.com/ip-ranges.json"
+
     resp, err := http.Get(awsDownload)
     if err != nil {
         return nil, err
@@ -44,7 +40,7 @@ func DownloadAWS() ([]byte, error) {
     return body, nil
 }
 
-// UpdateAWS parses the AWS IP json file and updates the interval set
+// Parses the AWS IP json file and updates the interval set
 func UpdateAWS(ipmap *IntervalSet, body []byte) error {
     const (
         dcName = "Amazon AWS"

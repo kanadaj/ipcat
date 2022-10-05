@@ -5,7 +5,6 @@ import (
     "errors"
     "fmt"
     "io/ioutil"
-    "log"
     "net/http"
     "regexp"
     "strings"
@@ -19,14 +18,12 @@ type AzureValueProperties struct {
     NetworkFeatures []string `json:"networkFeatures"`
 }
 
-// AzureValue is Azure value in their IP ranges file
 type AzureValue struct {
     Name       string                 `json:"name"`
     Id         string                 `json:"id"`
     Properties AzureValueProperties   `json:"properties"`
 }
 
-// Azure is main record for Azure IP info
 type Azure struct {
     ChangeNumber int          `json:"changeNumber"`
     Cloud        string       `json:"cloud"`
@@ -36,7 +33,7 @@ type Azure struct {
 var findPublicIPsURL = func() (string, error) {
     //  Ref: Azure IP Ranges and Service Tags – Public Cloud
     //  https://www.microsoft.com/en-us/download/details.aspx?id=56519
-    downloadPage := "https://www.microsoft.com/en-us/download/confirmation.aspx?id=56519"
+    const downloadPage = "https://www.microsoft.com/en-us/download/confirmation.aspx?id=56519"
 
     resp, err := http.Get(downloadPage)
     if err != nil {
@@ -57,15 +54,13 @@ var findPublicIPsURL = func() (string, error) {
     return string(addr)[4:], nil
 }
 
-// DownloadAzure downloads and returns raw bytes of the MS Azure ip
-// range list
+// Downloads and returns raw bytes of the Azure IP range list
 func DownloadAzure() ([]byte, error) {
     url, err := findPublicIPsURL()
     if err != nil {
         return nil, fmt.Errorf("Failed to find public IPs url: %s", err)
     }
 
-    log.Printf("Fetching url, %s", url)
     resp, err := http.Get(url)
     if err != nil {
         return nil, err
@@ -81,7 +76,7 @@ func DownloadAzure() ([]byte, error) {
     return body, nil
 }
 
-// UpdateAzure takes a raw data, parses it and updates the ipmap
+// Takes raw data, parses it and updates the ipmap
 func UpdateAzure(ipmap *IntervalSet, body []byte) error {
     const (
         dcName = "Microsoft Azure"
@@ -91,7 +86,6 @@ func UpdateAzure(ipmap *IntervalSet, body []byte) error {
     azure := Azure{}
     err := json.Unmarshal(body, &azure)
     if err != nil {
-        log.Printf("Unable to unmarshall body, %s", body)
         return err
     }
 

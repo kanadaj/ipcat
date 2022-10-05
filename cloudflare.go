@@ -7,14 +7,12 @@ import (
     "net/http"
 )
 
-//  Ref: Cloudflare IP addresses
-//  https://developers.cloudflare.com/fundamentals/get-started/concepts/cloudflare-ip-addresses/
-var (
-    cloudflareDownload = "https://www.cloudflare.com/ips-v4"
-)
-
-// DownloadCloudflare downloads the latest Cloudflare IP ranges list
+// Downloads the latest Cloudflare IP ranges list
 func DownloadCloudflare() ([]byte, error) {
+    //  Ref: Cloudflare IP addresses
+    //  https://developers.cloudflare.com/fundamentals/get-started/concepts/cloudflare-ip-addresses/
+    const cloudflareDownload = "https://www.cloudflare.com/ips-v4"
+
     resp, err := http.Get(cloudflareDownload)
     if err != nil {
         return nil, err
@@ -31,19 +29,19 @@ func DownloadCloudflare() ([]byte, error) {
     return bytes.TrimSpace(body), nil
 }
 
-// UpdateCloudflare parses the Cloudflare IP text file and updates the interval set
+// Parses the Cloudflare IP text file and updates the interval set
 func UpdateCloudflare(ipmap *IntervalSet, body []byte) error {
     const (
-        cloudflareName = "Cloudflare Inc"
-        cloudflareURL  = "https://www.cloudflare.com/"
+        dcName = "Cloudflare Inc"
+        dcURL  = "https://www.cloudflare.com/"
     )
 
     // delete all existing records
-    ipmap.DeleteByName(cloudflareName)
+    ipmap.DeleteByName(dcName)
 
     // and add back
     for _, cidr := range bytes.Split(body, []byte("\n")) {
-        err := ipmap.AddCIDR(string(cidr), cloudflareName, cloudflareURL)
+        err := ipmap.AddCIDR(string(cidr), dcName, dcURL)
         if err != nil {
             return err
         }
