@@ -33,8 +33,6 @@ type Azure struct {
     Values       []AzureValue `json:"values"`
 }
 
-var retried bool
-
 var findPublicIPsURL = func() (string, error) {
     //  Ref: Azure IP Ranges and Service Tags – Public Cloud
     //  https://www.microsoft.com/en-us/download/details.aspx?id=56519
