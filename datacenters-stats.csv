@@ -1,5 +1,5 @@
 Datacenter Name, Total IPs
-Amazon AWS,37341200
+Amazon AWS,57432885
 Microsoft Azure,13610239
 Akamai,8145728
 Google App Engine,2563072
@@ -29,7 +29,6 @@ DigitalOcean USA,261120
 Linode,259072
 iWeb Technologies Inc.,245760
 Fortress Integrated Technologies,237568
-FDC Servers,229376
 KW Datacenter CA,216064
 GoGrid,204800
 latisys,202752
@@ -48,6 +47,7 @@ xservers.ro,168960
 Dreamhost,167936
 IP Exchange GmbH,165376
 Bluehost.com,164864
+FDC Servers,163840
 ServiHosting Networks S.L.,163840
 Strato,163840
 hostwinds.com,161792
@@ -104,6 +104,7 @@ ServInt,70656
 alog,69632
 MojoHost,69632
 WebNX Internet Services,69632
+TIKTOK PTE. LTD,66816
 DigitalOcean Singapore,65536
 Energy Group Networks,65536
 Locaweb,65536
@@ -495,6 +496,7 @@ Hostex Internet Services,2048
 hostinet.com,2048
 Hosting Telesystems,2048
 Hyperhosting,2048
+ICM,2048
 infinitetech.eu,2048
 ip.ro,2048
 Its Hosted,2048
