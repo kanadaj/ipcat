@@ -2,7 +2,7 @@
 all: generate
 
 generate:
-	go run ./cmd/ipcat/main.go
+	go run ./cmd/ipcat/main.go -aws -azure -google -cloudflare
 
 aws:
 	go run ./cmd/ipcat/main.go -aws
