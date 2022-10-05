@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/client9/ipcat"
+	"github.com/growlfm/ipcat"
 )
 
 func main() {
