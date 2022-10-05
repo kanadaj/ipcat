@@ -7,7 +7,8 @@ import (
     "net/http"
 )
 
-//  Ref: https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html
+//  Ref: AWS IP address ranges
+//  https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html
 var (
     awsDownload = "https://ip-ranges.amazonaws.com/ip-ranges.json"
 )
@@ -41,14 +42,13 @@ func DownloadAWS() ([]byte, error) {
     }
     resp.Body.Close()
     return body, nil
-
 }
 
 // UpdateAWS parses the AWS IP json file and updates the interval set
 func UpdateAWS(ipmap *IntervalSet, body []byte) error {
     const (
-        awsName = "Amazon AWS"
-        awsURL  = "http://www.amazon.com/aws/"
+        dcName = "Amazon AWS"
+        dcURL  = "http://www.amazon.com/aws/"
     )
 
     aws := AWS{}
@@ -58,12 +58,12 @@ func UpdateAWS(ipmap *IntervalSet, body []byte) error {
     }
 
     // delete all existing records
-    ipmap.DeleteByName(awsName)
+    ipmap.DeleteByName(dcName)
 
     // and add back
-    for _, rec := range aws.Prefixes {
-        if rec.Service == "EC2" {
-            err := ipmap.AddCIDR(rec.IPPrefix, awsName, awsURL)
+    for _, block := range aws.Prefixes {
+        if block.Service == "EC2" {
+            err := ipmap.AddCIDR(block.IPPrefix, dcName, dcURL)
             if err != nil {
                 return err
             }
