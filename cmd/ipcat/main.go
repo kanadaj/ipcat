@@ -16,6 +16,7 @@ func main() {
     updateAzure := flag.Bool("azure", false, "update Azure records")
     updateGoogle := flag.Bool("google", false, "update Google Cloud records")
     updateCloudflare := flag.Bool("cloudflare", false, "update Cloudflare records")
+    updateFastly := flag.Bool("fastly", false, "update Fastly records")
     datafile := flag.String("csvfile", "datacenters.csv", "read/write from this file")
     statsfile := flag.String("statsfile", "datacenters-stats.csv", "write statistics to this file")
     addCIDR := flag.String("addcidr", "", "add this CIDR range to the data file [CIDR,name,url]")
@@ -86,6 +87,17 @@ func main() {
         err = ipcat.UpdateCloudflare(&set, body)
         if err != nil {
             log.Fatalf("Unable to parse Cloudflare IP ranges: %s", err)
+        }
+    }
+
+    if *updateFastly {
+        body, err := ipcat.DownloadFastly()
+        if err != nil {
+            log.Fatalf("Unable to download Fastly IP ranges: %s", err)
+        }
+        err = ipcat.UpdateFastly(&set, body)
+        if err != nil {
+            log.Fatalf("Unable to parse Fastly IP ranges: %s", err)
         }
     }
 
