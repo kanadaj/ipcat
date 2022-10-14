@@ -58,6 +58,7 @@
 5.79.39.4,5.79.39.5,Rackspace,http://www.rackspace.com/
 5.79.64.0,5.79.123.255,Leaseweb,http://www.leaseweb.com/
 5.100.152.0,5.100.153.255,Confluence Networks Inc,http://confluence-networks.com/
+5.101.96.0,5.101.107.255,DigitalOcean,https://www.digitalocean.com/
 5.101.156.0,5.101.156.255,Beget,https://beget.com/en
 5.104.106.0,5.104.106.255,myLoc,http://www.myloc.de/
 5.104.108.0,5.104.108.255,myLoc,http://www.myloc.de/
@@ -293,6 +294,7 @@
 23.252.112.0,23.252.127.255,WebNX Internet Services,http://webnx.com/
 23.253.0.0,23.253.255.255,Rackspace,http://www.rackspace.com/
 23.254.0.0,23.254.127.255,B2 NET Solutions,http://www.servermania.com/
+24.199.64.0,24.199.71.255,DigitalOcean,https://www.digitalocean.com/
 27.50.32.0,27.50.39.255,Hurricane Electric,http://www.he.net/
 27.131.64.0,27.131.127.254,Micron21,http://www.micron21.com/
 31.3.104.0,31.3.111.255,tuxis.nl,http://tuxis.nl/
@@ -431,6 +433,7 @@
 37.123.118.0,37.123.118.255,UK2 Group,http://www.vps.net/
 37.128.129.0,37.128.129.255,Memset Ltd,http://www.memset.com/
 37.130.225.0,37.130.229.255,UK2 Hosting Services,https://www.uk2.net/
+37.139.0.0,37.139.31.255,DigitalOcean,https://www.digitalocean.com/
 37.139.52.0,37.139.52.255,MrHost,http://mrhost.biz/
 37.140.192.0,37.140.195.255,Reg.ru,https://www.reg.ru/
 37.143.8.0,37.143.15.255,ihc.ru,http://www.ihc.ru/
@@ -611,6 +614,7 @@
 45.40.112.0,45.40.127.255,My247webhosting,https://www.my247webhosting.com/
 45.40.128.0,45.40.191.255,GoDaddy.com Inc,http://www.godaddy.com/
 45.43.128.0,45.43.191.255,Server Network Technologies,http://www.hoststore.com/
+45.55.0.0,45.55.255.255,DigitalOcean,https://www.digitalocean.com/
 45.56.64.0,45.56.127.255,Linode,http://www.linode.com/
 45.59.128.0,45.59.191.255,Roya Hosting,http://www.royahosting.com/
 45.62.192.0,45.62.255.255,KW Datacenter CA,http://www.kwdatacentre.com/
@@ -644,6 +648,7 @@
 46.51.96.0,46.51.96.255,everhost,http://everhost.co/
 46.51.128.0,46.51.211.255,Amazon AWS,http://www.amazon.com/aws/
 46.51.216.0,46.51.255.255,Amazon AWS,http://www.amazon.com/aws/
+46.101.0.0,46.101.255.255,DigitalOcean,https://www.digitalocean.com/
 46.102.224.0,46.102.231.255,simpliq.com,http://www.simpliq.com/
 46.102.240.0,46.102.247.255,Elvsoft,http://www.elvsoft.com/
 46.102.251.0,46.102.251.255,everhost.ro,http://everhost.ro/
@@ -1132,6 +1137,8 @@
 67.204.0.0,67.204.63.255,Canaca-com Inc.,http://canaca.com
 67.205.0.0,67.205.63.255,Dreamhost,http://www.dreamhost.com/
 67.205.64.0,67.205.127.255,iWeb Technologies Inc.,http://iweb.com/
+67.205.128.0,67.205.191.255,DigitalOcean,https://www.digitalocean.com/
+67.207.68.0,67.207.95.255,DigitalOcean,https://www.digitalocean.com/
 67.207.128.0,67.207.159.255,Rackspace,http://www.rackspace.com/
 67.207.160.0,67.207.191.255,Colocation America Inc,http://www.colocationamerica.com/
 67.207.192.0,67.207.207.255,Silicon Valley Web Hosting,http://www.svwh.net/
@@ -1192,6 +1199,7 @@
 68.171.32.0,68.171.63.255,Jumpline Inc,http://www.jumpline.com/
 68.171.208.0,68.171.223.255,Acenet,http://www.ace-host.net/
 68.178.128.0,68.178.255.255,GoDaddy.com Inc,http://www.godaddy.com/
+68.183.0.0,68.183.255.255,DigitalOcean,https://www.digitalocean.com/
 68.233.224.0,68.233.255.255,Hivelocity Hosting,http://www.hivelocity.net/
 69.0.128.0,69.0.255.255,PEER 1,http://www.peer1.com/
 69.1.128.0,69.1.159.255,Indiana Data Center LLC,http://inddc.com/
@@ -1223,6 +1231,12 @@
 69.42.208.0,69.42.223.255,awknet,http://awknet.com/
 69.46.64.0,69.46.95.255,EGIHosting.com,http://www.egihosting.com/
 69.50.224.0,69.50.255.255,Silicon Valley Web Hosting,http://www.svwh.net/
+69.55.49.0,69.55.49.255,DigitalOcean,https://www.digitalocean.com/
+69.55.54.0,69.55.55.255,DigitalOcean,https://www.digitalocean.com/
+69.55.59.64,69.55.59.223,DigitalOcean,https://www.digitalocean.com/
+69.55.60.96,69.55.60.191,DigitalOcean,https://www.digitalocean.com/
+69.55.61.64,69.55.61.127,DigitalOcean,https://www.digitalocean.com/
+69.55.62.0,69.55.62.63,DigitalOcean,https://www.digitalocean.com/
 69.56.128.0,69.56.255.255,"ThePlanet.com Internet Services, Inc.",http://theplanet.com
 69.57.128.0,69.57.159.255,"ThePlanet.com Internet Services, Inc.",http://theplanet.com
 69.57.160.0,69.57.191.255,Fortress Integrated Technologies,http://fortressitx.com/
@@ -1501,6 +1515,7 @@
 80.95.144.0,80.95.159.255,LINK11 Gmbh,http://www.link11.de/
 80.190.0.0,80.190.255.255,IP Exchange GmbH,http://www.ip-exchange.de/
 80.237.128.0,80.237.255.255,Host Europe,http://www.hosteurope.de/
+80.240.128.0,80.240.143.255,DigitalOcean,https://www.digitalocean.com/
 80.243.176.0,80.243.191.255,Redstation Limited,http://redstation.com/
 80.246.52.0,80.246.52.127,Host Europe,http://www.hosteurope.de/
 80.246.54.0,80.246.57.255,Host Europe,http://www.hosteurope.de/
@@ -1539,6 +1554,7 @@
 82.165.0.0,82.165.255.255,1&1 Internet,http://www.1and1.com/
 82.192.64.0,82.192.95.255,Leaseweb,http://www.leaseweb.com/
 82.194.64.0,82.194.95.255,acens Technologies S.L.,http://www.acens.com/
+82.196.0.0,82.196.15.255,DigitalOcean,https://www.digitalocean.com/
 82.211.0.0,82.211.63.255,accelerated.de,http://accelerated.de/
 83.98.128.0,83.98.128.255,Flexwebhosting.nl,http://www.flexwebhosting.nl/
 83.136.80.0,83.136.87.255,myLoc,http://www.myloc.de/
@@ -1849,6 +1865,7 @@
 94.247.0.0,94.247.7.255,Red Hosting,http://redhosting.nl/
 94.247.168.0,94.247.175.255,GleSYS,http://www.glesys.se
 95.57.120.0,95.57.120.255,Kazakhtelecom Colocation,
+95.85.1.0,95.85.63.255,DigitalOcean,https://www.digitalocean.com/
 95.100.0.0,95.101.255.255,Akamai,http://akamai.com/
 95.108.120.0,95.108.127.255,hosteam.pl,http://hosteam.pl/
 95.128.88.0,95.128.95.255,prolocation.net,http://prolocation.net/
@@ -1968,6 +1985,7 @@
 103.246.248.0,103.246.248.255,quickweb.co.nz,http://quickweb.co.nz/
 103.246.250.0,103.246.251.255,quickweb.co.nz,http://quickweb.co.nz/
 103.251.24.0,103.251.27.255,LoopByte,https://loopbyte.com/
+103.253.145.0,103.253.147.255,DigitalOcean,https://www.digitalocean.com/
 103.255.140.0,103.255.141.255,Microsoft Azure,http://www.windowsazure.com/en-us/
 104.16.0.0,104.27.255.255,Cloudflare Inc,https://www.cloudflare.com/
 104.36.16.0,104.36.19.255,CloudSigma,https://www.cloudsigma.com/
@@ -1983,6 +2001,7 @@
 104.47.218.0,104.47.239.255,Microsoft Azure,http://www.windowsazure.com/en-us/
 104.64.0.0,104.127.255.255,Akamai,http://akamai.com/
 104.130.64.0,104.130.223.255,Rackspace,http://www.rackspace.com/
+104.131.0.0,104.131.255.255,DigitalOcean,https://www.digitalocean.com/
 104.143.0.0,104.143.15.255,Versaweb,https://versaweb.com/
 104.154.16.0,104.154.111.255,Google Cloud,https://cloud.google.com/
 104.154.113.0,104.154.121.255,Google Cloud,https://cloud.google.com/
@@ -2009,11 +2028,13 @@
 104.223.0.0,104.223.127.255,QuadraNet,https://www.quadranet.com/
 104.233.0.0,104.233.63.255,Server Network Technologies,http://www.hoststore.com/
 104.233.64.0,104.233.127.255,KW Datacenter CA,http://www.kwdatacentre.com/
+104.236.0.0,104.236.255.255,DigitalOcean,https://www.digitalocean.com/
 104.238.128.0,104.238.191.255,Choopa,https://www.choopa.com/
 104.238.192.0,104.238.239.255,Versaweb,https://versaweb.com/
 104.239.0.0,104.239.127.255,Server Network Technologies,http://www.hoststore.com/
 104.239.192.0,104.239.223.255,Rackspace,http://www.rackspace.com/
 104.245.96.0,104.245.103.255,VolumeDrive,http://volumedrive.com/
+104.248.0.0,104.248.255.255,DigitalOcean,https://www.digitalocean.com/
 104.255.64.0,104.255.71.255,Volume Drive,http://volumedrive.com
 106.186.120.0,106.186.127.255,Linode Japan,https://www.linode.com/
 107.6.0.0,107.6.63.255,PEER 1,http://www.peer1.com/
@@ -2028,6 +2049,7 @@
 107.155.0.0,107.155.63.255,Zenlayer,http://www.zenlayer.com/
 107.160.0.0,107.160.255.255,Psychz Networks,http://psychz.net/
 107.167.160.0,107.167.191.255,Google Cloud,https://cloud.google.com/
+107.170.0.0,107.170.255.255,DigitalOcean,https://www.digitalocean.com/
 107.172.0.0,107.175.255.255,ColoCrossing,http://www.colocrossing.com/
 107.176.0.0,107.177.255.255,Amazon AWS,http://www.amazon.com/aws/
 107.178.208.0,107.178.223.255,Google Cloud,https://cloud.google.com/
@@ -2147,6 +2169,7 @@
 128.127.104.0,128.127.111.255,AltusHost,http://www.altushost.com/
 128.140.216.0,128.140.223.255,Flexwebhosting.nl,http://www.flexwebhosting.nl/
 128.168.0.0,128.168.255.255,Data 102,http://data102.com/
+128.199.0.0,128.199.255.255,DigitalOcean,https://www.digitalocean.com/
 128.204.194.0,128.204.207.255,Snel Internet Services B.V.,https://www.snelserver.com/
 128.204.208.0,128.204.215.255,ecritel.net,http://www.ecritel.net/
 130.185.144.0,130.185.151.255,Titan Internet Ltd,http://www.titaninternet.co.uk/index.cfm
@@ -2187,22 +2210,32 @@
 134.0.24.0,134.0.31.255,TwooIT,http://www.twooit.de/
 134.19.176.0,134.19.191.255,serverboost.nl,http://serverboost.nl/
 134.119.216.166,134.119.216.167,Velia,https://www.velia.net/
+134.122.0.0,134.122.127.255,DigitalOcean,https://www.digitalocean.com/
 134.170.80.64,134.170.80.79,Microsoft Azure,http://www.windowsazure.com/en-us/
 134.170.192.0,134.170.199.255,Microsoft Azure,http://www.windowsazure.com/en-us/
 134.170.220.0,134.170.222.255,Microsoft Azure,http://www.windowsazure.com/en-us/
+134.209.0.0,134.209.255.255,DigitalOcean,https://www.digitalocean.com/
 134.255.192.0,134.255.255.255,Optimate Server,http://optimate-server.de/
 136.18.50.0,136.18.51.255,Amazon AWS,http://www.amazon.com/aws/
 137.74.0.0,137.74.255.255,OVH,https://www.ovh.ie/
 137.116.0.0,137.116.99.255,Microsoft Azure,http://www.windowsazure.com/en-us/
 137.116.112.0,137.117.255.255,Microsoft Azure,http://www.windowsazure.com/en-us/
 137.135.0.0,137.135.255.255,Microsoft Azure,http://www.windowsazure.com/en-us/
+137.184.0.0,137.184.251.255,DigitalOcean,https://www.digitalocean.com/
+137.184.254.0,137.184.254.255,DigitalOcean,https://www.digitalocean.com/
+138.68.0.0,138.68.31.255,DigitalOcean,https://www.digitalocean.com/
+138.68.36.0,138.68.255.255,DigitalOcean,https://www.digitalocean.com/
 138.91.0.0,138.91.255.255,Microsoft Azure,http://www.windowsazure.com/en-us/
+138.197.0.0,138.197.243.255,DigitalOcean,https://www.digitalocean.com/
+138.197.252.0,138.197.255.255,DigitalOcean,https://www.digitalocean.com/
+139.59.0.0,139.59.255.255,DigitalOcean,https://www.digitalocean.com/
 139.162.0.0,139.162.255.255,Linode,http://www.linode.com/
 139.199.0.0,139.199.255.255,Tencent Cloud,https://intl.cloud.tencent.com/
 140.143.0.0,140.143.255.255,Tencent Cloud,https://intl.cloud.tencent.com/
 140.179.0.0,140.179.255.255,Amazon AWS,http://www.amazon.com/aws/
 140.248.64.0,140.248.255.255,Fastly,https://www.fastly.com/
 141.0.160.0,141.0.167.255,NuFuture Ltd,http://www.nublue.co.uk/
+141.0.169.0,141.0.170.255,DigitalOcean,https://www.digitalocean.com/
 141.101.64.0,141.101.127.255,Cloudflare Inc,https://www.cloudflare.com/
 141.105.64.0,141.105.71.255,HostKey,http://www.hostkey.com/
 141.138.136.0,141.138.143.255,transip,https://www.transip.nl/
@@ -2213,17 +2246,30 @@
 142.11.192.0,142.11.255.255,hostwinds.com,http://www.hostwinds.com/
 142.54.160.0,142.54.191.255,Data Shack,https://www.datashack.net/
 142.91.0.0,142.91.255.255,Ubiquity Server Solutions,http://www.ubiquityservers.com/
+142.93.0.0,142.93.255.255,DigitalOcean,https://www.digitalocean.com/
 142.234.0.0,142.234.255.255,Ubiquity Server Solutions,http://www.ubiquityservers.com/
+143.110.128.0,143.110.255.255,DigitalOcean,https://www.digitalocean.com/
+143.198.0.0,143.198.251.255,DigitalOcean,https://www.digitalocean.com/
+143.244.128.0,143.244.191.255,DigitalOcean,https://www.digitalocean.com/
+143.244.196.0,143.244.215.255,DigitalOcean,https://www.digitalocean.com/
+143.244.218.0,143.244.218.255,DigitalOcean,https://www.digitalocean.com/
+143.244.220.0,143.244.223.255,DigitalOcean,https://www.digitalocean.com/
+144.126.192.0,144.126.255.255,DigitalOcean,https://www.digitalocean.com/
 144.217.0.0,144.217.255.255,OVH CA,https://www.ovh.com/ca/en/
 146.0.72.0,146.0.79.255,HostKey,http://www.hostkey.com/
 146.0.231.216,146.0.231.223,AlphaRacks,https://www.alpharacks.com/
 146.75.0.0,146.75.127.255,Fastly,https://www.fastly.com/
 146.148.2.0,146.148.127.255,Google Cloud,https://cloud.google.com/
 146.185.16.0,146.185.31.255,UK2 Group,http://www.100tb.com/
+146.185.128.0,146.185.191.255,DigitalOcean,https://www.digitalocean.com/
+146.190.0.0,146.190.63.255,DigitalOcean,https://www.digitalocean.com/
+146.190.192.0,146.190.199.255,DigitalOcean,https://www.digitalocean.com/
+146.190.224.0,146.190.255.255,DigitalOcean,https://www.digitalocean.com/
 146.255.24.0,146.255.31.255,Angel Hosting,http://www.angel-hosting.cz/
 146.255.32.0,146.255.47.255,GoDaddy.com Inc,http://www.godaddy.com/
 146.255.168.0,146.255.175.255,WEBAXYS,http://www.webaxys.fr/
 147.75.192.0,147.75.207.255,Packet Host,https://www.packet.net/
+147.182.128.0,147.182.255.255,DigitalOcean,https://www.digitalocean.com/
 147.203.0.0,147.203.255.255,American Internet Services,http://americanis.net/
 147.255.0.0,147.255.255.255,Ubiquity Server Solutions,http://www.ubiquityservers.com/
 148.251.0.0,148.251.255.255,Hetzner Online AG,http://www.hetzner.de/
@@ -2296,7 +2342,9 @@
 157.56.176.0,157.56.183.255,Microsoft Azure,http://www.windowsazure.com/en-us/
 157.56.216.0,157.56.216.63,Microsoft Azure,http://www.windowsazure.com/en-us/
 157.175.0.0,157.175.255.255,Amazon AWS,http://www.amazon.com/aws/
+157.230.0.0,157.230.255.255,DigitalOcean,https://www.digitalocean.com/
 157.241.0.0,157.241.255.255,Amazon AWS,http://www.amazon.com/aws/
+157.245.0.0,157.245.255.255,DigitalOcean,https://www.digitalocean.com/
 158.58.168.0,158.58.171.255,SeFlow.it Internet Services,http://seflow.net/
 158.69.0.0,158.69.255.255,OVH CA,https://www.ovh.com/ca/en/
 158.85.0.0,158.85.255.255,SoftLayer,http://www.softlayer.com/
@@ -2305,11 +2353,17 @@
 158.255.40.0,158.255.47.255,eukhost.com,http://eukhost.com/
 158.255.208.0,158.255.215.255,EDIS,http://www.edis.at/
 159.8.0.0,159.8.255.255,SoftLayer,http://www.softlayer.com/
+159.65.0.0,159.65.255.255,DigitalOcean,https://www.digitalocean.com/
+159.89.0.0,159.89.55.255,DigitalOcean,https://www.digitalocean.com/
+159.89.64.0,159.89.255.255,DigitalOcean,https://www.digitalocean.com/
 159.122.0.0,159.122.255.255,SoftLayer,http://www.softlayer.com/
+159.203.0.0,159.203.255.255,DigitalOcean,https://www.digitalocean.com/
+159.223.0.0,159.223.239.255,DigitalOcean,https://www.digitalocean.com/
 159.253.24.0,159.253.31.255,GleSys,http://glesys.se/
 159.253.56.0,159.253.63.255,host-it.co.uk,http://www.host-it.co.uk/
 159.253.128.0,159.253.159.255,SoftLayer,http://www.softlayer.com/
 160.1.0.0,160.1.255.255,Amazon AWS,http://www.amazon.com/aws/
+161.35.0.0,161.35.255.255,DigitalOcean,https://www.digitalocean.com/
 161.188.128.0,161.188.161.255,Amazon AWS,http://www.amazon.com/aws/
 161.189.0.0,161.189.255.255,Amazon AWS,http://www.amazon.com/aws/
 161.202.0.0,161.202.255.255,SoftLayer,http://www.softlayer.com/
@@ -2340,6 +2394,10 @@
 162.222.148.0,162.222.151.255,Amazon AWS,http://www.amazon.com/aws/
 162.222.176.0,162.222.183.255,Google Cloud,https://cloud.google.com/
 162.242.128.0,162.242.255.255,Rackspace,http://www.rackspace.com/
+162.243.0.0,162.243.175.255,DigitalOcean,https://www.digitalocean.com/
+162.243.177.0,162.243.177.255,DigitalOcean,https://www.digitalocean.com/
+162.243.184.0,162.243.187.255,DigitalOcean,https://www.digitalocean.com/
+162.243.192.0,162.243.255.255,DigitalOcean,https://www.digitalocean.com/
 162.244.24.0,162.244.31.255,KW Datacenter CA,http://www.kwdatacentre.com/
 162.246.16.0,162.246.23.255,InterServer.net,http://www.interserver.net/
 162.248.8.0,162.248.11.255,KW Datacenter CA,http://www.kwdatacentre.com/
@@ -2348,18 +2406,28 @@
 162.250.120.0,162.250.127.255,InterServer.net,http://www.interserver.net/
 162.250.236.0,162.250.239.255,Amazon AWS,http://www.amazon.com/aws/
 162.252.240.0,162.252.243.255,KW Datacenter CA,http://www.kwdatacentre.com/
+163.47.8.0,163.47.11.255,DigitalOcean,https://www.digitalocean.com/
 164.40.133.0,164.40.133.255,GoGrid LLC,http://www.gogrid.com/
 164.40.144.0,164.40.144.255,GoGrid LLC,http://www.gogrid.com/
 164.40.147.0,164.40.147.255,GoGrid LLC,http://www.gogrid.com/
+164.90.128.0,164.90.247.255,DigitalOcean,https://www.digitalocean.com/
+164.90.252.0,164.90.255.255,DigitalOcean,https://www.digitalocean.com/
+164.92.64.0,164.92.255.255,DigitalOcean,https://www.digitalocean.com/
 164.138.220.0,164.138.221.255,SuperHosting.BG,http://www.superhosting.bg/
 164.177.128.0,164.177.159.255,Rackspace,http://www.rackspace.com/
+165.22.0.0,165.22.255.255,DigitalOcean,https://www.digitalocean.com/
+165.227.0.0,165.227.255.255,DigitalOcean,https://www.digitalocean.com/
+165.232.32.0,165.232.191.255,DigitalOcean,https://www.digitalocean.com/
 166.62.0.0,166.62.127.255,GoDaddy.com Inc,http://www.godaddy.com/
 166.78.0.0,166.78.255.255,Rackspace,http://www.rackspace.com/
+167.71.0.0,167.71.255.255,DigitalOcean,https://www.digitalocean.com/
 167.82.0.0,167.82.143.255,Fastly,https://www.fastly.com/
 167.82.160.0,167.82.175.255,Fastly,https://www.fastly.com/
 167.82.224.0,167.82.239.255,Fastly,https://www.fastly.com/
 167.88.32.0,167.88.47.255,KW Datacenter CA,http://www.kwdatacentre.com/
+167.99.0.0,167.99.255.255,DigitalOcean,https://www.digitalocean.com/
 167.160.32.0,167.160.63.255,Web2Objects,https://web2objects.com/
+167.172.0.0,167.172.255.255,DigitalOcean,https://www.digitalocean.com/
 168.1.0.0,168.1.255.255,SoftLayer,http://www.softlayer.com/
 168.61.0.0,168.61.128.143,Microsoft Azure,http://www.windowsazure.com/en-us/
 168.61.128.160,168.61.129.191,Microsoft Azure,http://www.windowsazure.com/en-us/
@@ -2383,6 +2451,8 @@
 169.53.0.0,169.55.255.255,SoftLayer,http://www.softlayer.com/
 169.56.64.0,169.56.159.255,SoftLayer,http://www.softlayer.com/
 169.57.0.0,169.57.255.255,SoftLayer,http://www.softlayer.com/
+170.64.128.0,170.64.159.255,DigitalOcean,https://www.digitalocean.com/
+170.64.248.0,170.64.255.255,DigitalOcean,https://www.digitalocean.com/
 172.64.0.0,172.71.255.255,Cloudflare Inc,https://www.cloudflare.com/
 172.96.128.0,172.96.135.255,Versaweb,https://versaweb.com/
 172.98.64.0,172.98.95.255,Total Server Solutions,http://totalserversolutions.com/
@@ -2462,6 +2532,7 @@
 174.136.0.0,174.136.63.255,colo4dallas.com,http://colo4dallas.com/
 174.137.48.0,174.137.63.255,Carat Networks,http://www.caratnetworks.com/
 174.137.128.0,174.137.191.255,Webair Internet Development Inc,http://www.webair.com/
+174.138.0.0,174.138.127.255,DigitalOcean,https://www.digitalocean.com/
 174.138.160.0,174.138.175.255,Secure Servers,http://www.securedservers.com/
 174.139.0.0,174.139.255.255,VPLS Inc. d/b/a Krypt Technologies,http://krypt.com/
 174.140.160.0,174.140.175.255,DirectSpace Networks,http://www.directspace.net/
@@ -2565,12 +2636,14 @@
 178.21.112.0,178.21.118.255,DirectVPS,https://www.directvps.nl/
 178.22.80.0,178.22.87.255,prolocation.net,http://prolocation.net/
 178.32.0.0,178.33.255.255,OVH,http://www.ovh.co.uk/
+178.62.0.0,178.62.255.255,DigitalOcean,https://www.digitalocean.com/
 178.63.0.0,178.63.255.255,Hetzner Online AG,http://www.hetzner.de/
 178.73.192.0,178.73.255.255,Portlane,http://www.portlane.com/
 178.77.64.0,178.77.127.255,Host Europe,http://www.hosteurope.de/
 178.79.128.0,178.79.191.255,Linode,http://www.linode.com/
 178.79.192.0,178.79.255.255,Limelight Networks Inc,http://www.limelight.com/
 178.86.0.0,178.87.255.255,hosting.ua,http://hosting.ua/
+178.128.0.0,178.128.255.255,DigitalOcean,https://www.digitalocean.com/
 178.156.0.0,178.156.127.255,ServiHosting Networks S.L.,http://servihosting.es
 178.159.37.0,178.159.37.255,SBY Telecom,http://sby-telecom.info/
 178.159.240.0,178.159.255.255,ActiveCloud,https://www.active.by/
@@ -2652,6 +2725,7 @@
 185.12.6.0,185.12.6.255,CloudSigma,https://www.cloudsigma.com/
 185.12.64.0,185.12.67.255,Hetzner Online AG,http://www.hetzner.de/
 185.14.28.0,185.14.29.255,UA Servers,https://itldc.com/
+185.14.184.0,185.14.187.255,DigitalOcean,https://www.digitalocean.com/
 185.14.194.0,185.14.194.127,Atomohost,http://www.atomohost.com/
 185.17.157.192,185.17.157.255,Realcomm,https://www.realcomm.it/
 185.17.184.0,185.17.187.255,Leaseweb,http://www.leaseweb.com/
@@ -2725,9 +2799,11 @@
 188.127.239.0,188.127.239.255,SmartApe,https://www.smartape.eu/
 188.138.0.0,188.138.127.255,plusserver.de,http://plusserver.de/
 188.165.0.0,188.165.255.255,OVH,http://www.ovh.co.uk/
+188.166.0.0,188.166.255.255,DigitalOcean,https://www.digitalocean.com/
 188.172.0.0,188.172.255.255,xservers.ro,http://www.xservers.ro/
 188.190.96.0,188.190.127.255,infiumhost.com,http://infiumhost.com/
 188.214.128.0,188.214.135.255,Duomenu Centras Lithuania,http://www.duomenucentras.lt/lt/
+188.226.128.0,188.226.255.255,DigitalOcean,https://www.digitalocean.com/
 188.227.160.0,188.227.191.255,Redstation Limited,http://redstation.com/
 188.240.2.0,188.240.3.255,mxhost,http://www.mxhost.ro/
 188.240.32.0,188.240.35.255,Ch-center,http://www.ch-center.com/
@@ -2770,6 +2846,7 @@
 192.3.0.0,192.3.255.255,ColoCrossing,http://www.colocrossing.com/
 192.26.25.0,192.26.25.255,Amazon AWS,http://www.amazon.com/aws/
 192.30.136.0,192.30.139.255,Input Output Flood LLC,http://ioflood.com/
+192.34.56.0,192.34.63.255,DigitalOcean,https://www.digitalocean.com/
 192.34.108.0,192.34.111.255,WoW Technologies,http://wowrack.com/
 192.40.56.0,192.40.59.255,Total Server Solutions,http://totalserversolutions.com/
 192.40.112.0,192.40.115.255,ihnetworks.net,http://ihnetworks.net/
@@ -2781,6 +2858,7 @@
 192.73.240.0,192.73.255.255,Host Virtual,http://www.vr.org/
 192.80.8.0,192.80.8.255,Packet Host,https://www.packet.net/
 192.81.128.0,192.81.135.255,Linode,http://www.linode.com/
+192.81.208.0,192.81.223.255,DigitalOcean,https://www.digitalocean.com/
 192.82.248.0,192.82.255.255,wehostwebsites.com,http://wehostwebsites.com/
 192.91.186.0,192.91.186.255,demos,http://demos.ru/
 192.95.0.0,192.95.63.255,OVH,http://www.ovh.co.uk/
@@ -2830,6 +2908,8 @@
 192.240.96.0,192.240.127.255,FDCservers,https://www.fdcservers.net/
 192.241.8.0,192.241.15.255,avantehosting.net,https://avantehosting.net/
 192.241.64.0,192.241.127.255,servermania.com,http://www.servermania.com/
+192.241.128.0,192.241.163.255,DigitalOcean,https://www.digitalocean.com/
+192.241.165.0,192.241.255.255,DigitalOcean,https://www.digitalocean.com/
 192.243.48.0,192.243.63.255,Advanced Hosters,https://advancedhosters.com/
 192.249.112.0,192.249.127.255,inmotion hosting,http://www.inmotionhosting.com/
 192.252.208.0,192.252.223.255,Total Server Solutions,http://totalserversolutions.com/
@@ -3034,9 +3114,13 @@
 198.178.120.0,198.178.127.255,Hivelocity Hosting,http://www.hivelocity.net/
 198.180.97.0,198.180.97.255,Microsoft Azure,http://www.windowsazure.com/en-us/
 198.183.220.0,198.183.223.255,Managed Hosting Services (Gorack),http://www.gorack.net/
+198.199.64.0,198.199.98.255,DigitalOcean,https://www.digitalocean.com/
+198.199.100.0,198.199.127.255,DigitalOcean,https://www.digitalocean.com/
 198.204.224.0,198.204.255.255,Data Shack,https://www.datashack.net/
 198.205.112.0,198.205.127.255,GoRack,http://www.gorack.net/
 198.211.0.0,198.211.63.255,multacom.com,http://multacom.com/
+198.211.96.0,198.211.110.255,DigitalOcean,https://www.digitalocean.com/
+198.211.112.0,198.211.127.255,DigitalOcean,https://www.digitalocean.com/
 198.245.48.0,198.245.63.255,OVH,http://www.ovh.co.uk/
 198.245.64.0,198.245.79.255,servermania.com,http://www.servermania.com/
 198.246.44.0,198.246.47.255,KW Datacenter CA,http://www.kwdatacentre.com/
@@ -3218,6 +3302,7 @@
 204.27.56.0,204.27.63.255,Joe's Datacenter,http://www.joesdatacenter.com/
 204.28.100.0,204.28.103.255,Immedion,http://immedion.com/
 204.45.0.0,204.45.255.255,Amazon AWS,http://www.amazon.com/aws/
+204.48.16.0,204.48.31.255,DigitalOcean,https://www.digitalocean.com/
 204.51.128.0,204.51.255.255,GoGrid,http://www.gogrid.com/
 204.61.220.0,204.61.223.255,Quasar Data Center,http://quasardata.com/
 204.68.96.0,204.68.127.255,American Internet Services,http://americanis.net/
@@ -3256,12 +3341,14 @@
 206.51.224.0,206.51.239.255,Hivelocity Hosting,http://www.hivelocity.net/
 206.71.160.0,206.71.191.255,American Internet Services,http://americanis.net/
 206.72.192.0,206.72.207.255,InterServer.net,http://www.interserver.net/
+206.81.0.0,206.81.31.255,DigitalOcean,https://www.digitalocean.com/
 206.82.192.0,206.82.223.255,latisys,http://www.latisys.com/
 206.123.64.0,206.123.127.255,colo4dallas.com,http://colo4dallas.com/
 206.125.40.0,206.125.47.255,calPOP,http://calpop.com/
 206.130.96.0,206.130.127.255,westhost,http://www.westhost.com/
 206.183.104.0,206.183.111.255,Web Werks,http://www.web-werks.com/
 206.188.0.0,206.188.31.255,Datapipe,http://www.datapipe.com/
+206.189.0.0,206.189.255.255,DigitalOcean,https://www.digitalocean.com/
 206.196.0.0,206.196.31.255,Peak10,http://www.peak10.com/
 206.212.240.0,206.212.255.255,ColoStore,http://colostore.com/
 206.214.64.0,206.214.95.255,infinitie.net,http://www.serverhub.com/
@@ -3312,6 +3399,7 @@
 207.114.0.0,207.114.127.255,Datapoint,http://www.datapointinc.com/
 207.135.128.0,207.135.159.255,XMission,http://xmission.com/
 207.148.224.0,207.148.255.255,The Endurance International Group Inc,http://www.enduranceinternational.com/
+207.154.192.0,207.154.255.255,DigitalOcean,https://www.digitalocean.com/
 207.158.0.0,207.158.63.255,American Internet Services,http://americanis.net/
 207.159.128.0,207.159.159.255,PEER 1,http://www.peer1.com/
 207.198.64.0,207.198.127.255,PEER 1,http://www.peer1.com/
@@ -3333,6 +3421,7 @@
 208.66.72.0,208.66.79.255,VersaWeb,http://www.versaweb.com/
 208.67.180.0,208.67.183.255,ndchost.com,http://www.ndchost.com/
 208.67.224.0,208.67.227.255,Triple8 Network,http://888.net/
+208.68.36.0,208.68.39.255,DigitalOcean,https://www.digitalocean.com/
 208.69.56.0,208.69.59.255,Cirrus Tech Ltd,http://www.cirrushosting.com/
 208.69.112.0,208.69.119.255,travailsystems.com,http://travailsystems.com/
 208.69.176.0,208.69.183.255,Silicon Valley Web Hosting,http://www.svwh.net/
@@ -3454,6 +3543,7 @@
 209.81.64.0,209.81.95.255,LogicWorks,http://www.logicworks.net/
 209.85.0.0,209.85.127.255,"ThePlanet.com Internet Services, Inc.",http://theplanet.com
 209.95.96.0,209.95.127.255,PEER 1,http://www.peer1.com/
+209.97.128.0,209.97.191.255,DigitalOcean,https://www.digitalocean.com/
 209.97.192.0,209.97.223.255,RackForce,http://www.rockforce.com/
 209.99.0.0,209.99.127.255,Data Foundry,http://www.datafoundry.com/
 209.103.160.0,209.103.191.255,HopOne,http://www.hopone.net/
