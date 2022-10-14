@@ -162,7 +162,7 @@ func (ipset *IntervalSet) sort() error {
 				val.Left, val.Right)
 		}
 		if pos > 0 {
-			if val.Left <= last.Right || val.Right <= last.Right {
+			if val.Left <= last.Right && val.Right > last.Right {
 				return fmt.Errorf("Overlapping regions %v vs. %v", last, val)
 			}
 		}
@@ -182,6 +182,10 @@ func (ipset *IntervalSet) sort() error {
 		if last.Right+1 == val.Left && last.Name == val.Name {
 			last.Right = val.Right
 			newtree[len(newtree)-1] = last
+			continue
+		}
+		if val.Left >= last.Left && val.Right <= last.Right {
+			// This entry represents complete subset of previous - so skip it
 			continue
 		}
 		newtree = append(newtree, val)
