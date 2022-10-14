@@ -96,6 +96,7 @@ func UpdateAzure(ipmap *IntervalSet, body []byte) error {
         if value.Id == "AzureCloud" {
             prop := value.Properties
             for _, prefix := range prop.AddressPrefixes {
+                // Only add IPv4 prefixes
                 if strings.Count(prefix, ":") == 0 {
                     err = ipmap.AddCIDR(prefix, dcName, dcURL)
                     if err != nil {

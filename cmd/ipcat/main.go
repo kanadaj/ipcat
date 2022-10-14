@@ -18,6 +18,7 @@ func main() {
     updateCloudflare := flag.Bool("cloudflare", false, "update Cloudflare records")
     updateFastly := flag.Bool("fastly", false, "update Fastly records")
     updateAkamai := flag.Bool("akamai", false, "update Akamai records")
+    updateDigitalOcean := flag.Bool("digitalocean", false, "update DigitalOcean records")
     datafile := flag.String("csvfile", "datacenters.csv", "read/write from this file")
     statsfile := flag.String("statsfile", "datacenters-stats.csv", "write statistics to this file")
     addCIDR := flag.String("addcidr", "", "add this CIDR range to the data file [CIDR,name,url]")
@@ -110,6 +111,17 @@ func main() {
         err = ipcat.UpdateAkamai(&set, body)
         if err != nil {
             log.Fatalf("Unable to parse Akamai IP ranges: %s", err)
+        }
+    }
+
+    if *updateDigitalOcean {
+        body, err := ipcat.DownloadDigitalOcean()
+        if err != nil {
+            log.Fatalf("Unable to download DigitalOcean IP ranges: %s", err)
+        }
+        err = ipcat.UpdateDigitalOcean(&set, body)
+        if err != nil {
+            log.Fatalf("Unable to parse DigitalOcean IP ranges: %s", err)
         }
     }
 

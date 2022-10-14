@@ -2,7 +2,7 @@
 all: generate
 
 generate:
-    go run ./cmd/ipcat/main.go -aws -azure -google -cloudflare -fastly -akamai
+    go run ./cmd/ipcat/main.go -aws -azure -google -cloudflare -fastly -akamai -digitalocean
 
 aws:
     go run ./cmd/ipcat/main.go -aws
@@ -21,6 +21,9 @@ fastly:
 
 akamai:
     go run ./cmd/ipcat/main.go -akamai
+
+digitalocean:
+    go run ./cmd/ipcat/main.go -digitalocean
 
 install:
     go get golang.org/x/tools/cmd/goimports
