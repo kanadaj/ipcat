@@ -1,0 +1,9 @@
+.env
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+.travis.yml
+*_test.go
+ipcat.rb
+IpDbGenerate*

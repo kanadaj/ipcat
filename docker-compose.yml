@@ -1,0 +1,15 @@
+version: "2.4"
+
+services:
+    ipcat:
+        working_dir: /opt/ipcat
+        build:
+            context: .
+
+    update:
+        working_dir: /opt/ipcat
+        build:
+            context: .
+        command: ["go", "run", "./cmd/ipcat/main.go", "-aws", "-azure", "-google", "-cloudflare", "-fastly" ,"-akamai", "-digitalocean"]
+        volumes:
+            - ./tmp:/tmp
