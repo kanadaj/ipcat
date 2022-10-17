@@ -33,7 +33,7 @@ jobs:
             - name: Commit changes to IP list
               uses: EndBug/add-and-commit@v9
               with:
-                  add: .
+                  add: ./datacenters.csv ./datacenters-stats.csv
                   author_name: Growl Dev-Ops
                   author_email: dev-ops@growl.fm
                   message: Update IP list
