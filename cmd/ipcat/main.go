@@ -3,12 +3,29 @@ package main
 import (
     "flag"
     "fmt"
+    "io/ioutil"
     "log"
     "os"
+    "path/filepath"
     "strings"
 
     "github.com/growlfm/ipcat"
 )
+
+func CopyFile(src string, dest string) {
+
+    bytesRead, err := ioutil.ReadFile(src)
+
+    if err != nil {
+        log.Fatal(err)
+    }
+
+    err = ioutil.WriteFile(dest, bytesRead, 0644)
+
+    if err != nil {
+        log.Fatal(err)
+    }
+}
 
 func main() {
     lookup := flag.String("l", "", "lookup an IP address")
@@ -137,6 +154,13 @@ func main() {
         log.Println("Range added successfully")
     }
 
+    //  Make sure output dir exists
+    const outputPath = "/tmp/ipcat"
+    err = os.MkdirAll(outputPath, os.ModePerm)
+    if err != nil {
+        log.Fatalf("Could not create output directory: %s. Reason: %s", outputPath, err)
+    }
+
     if *statsfile != "" {
         fileout, err := os.OpenFile(*statsfile, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, 0644)
         if err != nil {
@@ -152,6 +176,10 @@ func main() {
             fileout.WriteString(fmt.Sprintf("%s,%d\n", name, val.Size))
         }
         fileout.Close()
+
+        basename := filepath.Base(*statsfile)
+        dest := filepath.Join(outputPath, basename)
+        CopyFile(*statsfile, dest)
     }
 
     fileout, err := os.OpenFile(*datafile, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, 0644)
@@ -163,4 +191,8 @@ func main() {
         log.Fatalf("Unable to export: %s", err)
     }
     fileout.Close()
+
+    basename := filepath.Base(*datafile)
+    dest := filepath.Join(outputPath, basename)
+    CopyFile(*datafile, dest)
 }
