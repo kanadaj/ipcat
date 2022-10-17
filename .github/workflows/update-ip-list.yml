@@ -1,0 +1,39 @@
+name: Update IP list
+
+on:
+    workflow_dispatch: {}
+    push:
+        branches:
+            - main
+    schedule:
+        - cron: "0 1 * * *"
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+            - name: Configure git
+              uses: oleksiyrudenko/gha-git-credentials@v2.1
+              with:
+                  token: ${{ secrets.DEVOPS_GITHUB_TOKEN }}
+            - name: Create .env file
+              run: |
+                  touch .env
+            - name: Build
+              run: |
+                  docker compose build
+            - name: Update
+              run: |
+                  docker compose run update
+            - name: Copy artifacts
+              run: |
+                  cp ${{ github.workspace }}/tmp/ipcat/* ${{ github.workspace }}
+            - name: Commit changes to IP list
+              uses: EndBug/add-and-commit@v9
+              with:
+                  add: .
+                  author_name: Growl Dev-Ops
+                  author_email: dev-ops@growl.fm
+                  message: Update IP list
