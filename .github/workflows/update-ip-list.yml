@@ -14,10 +14,6 @@ jobs:
         steps:
             - name: Checkout
               uses: actions/checkout@v3
-            - name: Configure git
-              uses: oleksiyrudenko/gha-git-credentials@v2.1
-              with:
-                  token: ${{ secrets.DEVOPS_GITHUB_TOKEN }}
             - name: Create .env file
               run: |
                   touch .env
@@ -31,9 +27,9 @@ jobs:
               run: |
                   cp ${{ github.workspace }}/tmp/ipcat/* ${{ github.workspace }}
             - name: Commit changes to IP list
-              uses: EndBug/add-and-commit@v9
-              with:
-                  add: ./datacenters.csv ./datacenters-stats.csv
-                  author_name: Growl Dev-Ops
-                  author_email: dev-ops@growl.fm
-                  message: Update IP list
+              run: |
+                  git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+                  git config --global user.email "username@users.noreply.github.com"
+                  git add ./datacenters.csv ./datacenters-stats.csv
+                  git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
+                  git push
